@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html{
+     scroll-behavior: smooth; /*ESTUDAR PARA ENTENDER MELHOR */
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(rgba(0,0,0,0.7), transparent);
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0;
+    display: inline-block;
+    margin: 15px 10px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid white;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section h1{
+    font-size: 70px;
+    color: white
+}
+
+
+section:nth-of-type(1){
+    background-image: url("https://i.pinimg.com/originals/e9/64/88/e96488ebe03bbadb7fe0743f9dbc5515.jpg");
+}
+section:nth-of-type(2){
+    background-image: url("https://i.pinimg.com/originals/ab/af/78/abaf78ed9e052375fd8d5b63773b532d.jpg");
+}
+section:nth-of-type(3){
+    background-image: url("https://images4.alphacoders.com/565/565989.jpg");
+}
+section:nth-of-type(4){
+    background-image: url("https://i.pinimg.com/736x/18/3b/a5/183ba5f2f449652bfe07f43eede63c37.jpg");
+}
